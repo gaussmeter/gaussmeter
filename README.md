@@ -1,6 +1,8 @@
 
 # Gaussmeter
 
+![gaussmeter](gaussmeter.gif)
+
 #### gauss
 One gauss equals 1×10<sup>−4</sup> tesla (100 μT)
 
