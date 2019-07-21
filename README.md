@@ -11,6 +11,8 @@ a device that measures and records the quantity, degree, or rate of something.
 
 # Hardware
 
+![hardware](hardware.png)
+
 ## raspbery Pi Zero W
 
 ## Neopixel (WS2812)
