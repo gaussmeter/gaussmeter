@@ -35,10 +35,6 @@ Drives Neopixels (WS2812)
 
 https://github.com/gaussmeter/query
 
-## ouroboros (optional)
-Ouroboros monitors all running docker containers and updates them to the latest available image in the remote registry. 
-https://github.com/pyouroboros/ouroboros/issues
-
 #### Todo
 - examples (curl)
 - details

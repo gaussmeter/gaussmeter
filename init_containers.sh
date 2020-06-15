@@ -1,8 +1,4 @@
 set -x
-# Todo set logging retention.
 docker network create gaussmeter
-docker container run --detach --restart always                                           --network gaussmeter --name token gaussmeter/token:latest
-docker container run --detach --restart always --volume /home/pi/badger_data:/tmp/badger --network gaussmeter --name config gaussmeter/config:latest
-docker container run --detach --restart always --privileged                              --network gaussmeter --name lumen  gaussmeter/lumen:latest
-docker container run --detach --restart always --publish 9001:9001                       --network gaussmeter --name front  gaussmeter/front:latest 
-docker container run --detach --restart always                                           --network gaussmeter --name query  gaussmeter/query:latest
+docker container run --detach --restart always --network gaussmeter --name lumen --privileged  gaussmeter/lumen:latest
+docker container run --detach --restart always --network gaussmeter --name teslamater -env LUMEN_HOST=http://lumen:9000/lumen -env MQTT_HOST=ws://192.168.1.51:9001 gaussmeter/teslamater:latest
