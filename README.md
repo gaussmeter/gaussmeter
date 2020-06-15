@@ -21,7 +21,7 @@ a device that measures and records the quantity, degree, or rate of something.
 
 ## Teslamate
 
-https://teslamate.readthedocs.io/en/v1.18.1/
+https://github.com/adriankumpf/teslamate
 
 ## teslamater
 
