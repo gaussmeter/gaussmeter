@@ -33,7 +33,7 @@ https://github.com/gaussmeter/teslamater
 
 Drives Neopixels (WS2812)
 
-https://github.com/gaussmeter/query
+https://github.com/gaussmeter/lumen
 
 #### Todo
 - examples (curl)
