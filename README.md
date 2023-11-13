@@ -9,12 +9,6 @@ One gauss equals 1×10<sup>−4</sup> tesla (100 μT)
 #### meter
 a device that measures and records the quantity, degree, or rate of something.
 
-# If youwould like to buy one...
-
-Gaussmeter is available [for sale on Etsy](https://www.etsy.com/shop/thinWood)
-
-If no units are avaiable for sale and you would like to purchase one, please open an issue so that we can discuss what you are looking for.
-
 # Hardware
 
 ![hardware](hardware.png)
